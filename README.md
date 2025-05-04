@@ -1,60 +1,49 @@
 # 🍽️ Restaurant Customer Behavior Analysis – SQL Case Study
 
 ## 📌 Objective
-The primary objective of this case study is to analyze customer behavior at a restaurant using SQL. The goal is to derive actionable insights that can help the marketing and growth teams in improving customer engagement, retention, and acquisition strategies. This project focuses on understanding acquisition channels, ordering patterns, and promo effectiveness using real-world business questions.
+The objective of this case study is to analyze restaurant customer behavior using SQL and deliver insights that help the marketing and growth teams with customer engagement, retention, and acquisition strategies.
+
+---
 
 ## 📊 Project Description
-In this SQL case study, we explore customer and order data from a restaurant to answer key business questions related to acquisition, order trends, and promotional impact. By writing optimized SQL queries, we generate insights that can support decision-making across marketing, growth, and operations teams.
 
-This project includes the solution to the following analytical questions:
+This SQL case study explores customer acquisition, ordering behavior, and promo usage patterns by answering key business questions using real-world scenarios.
 
-## ✅ Business Questions Solved
-1 Top Outlet by Cuisine Type (Without using LIMIT or TOP)
+### ✅ Business Questions Solved
 
-2 Identified the outlet that has the highest number of orders for each cuisine type using techniques like ROW_NUMBER() or RANK().
+- **Top Outlet by Cuisine Type (Without using LIMIT or TOP)**
+  - Identified the outlet with the highest number of orders for each cuisine using `ROW_NUMBER()` or `RANK()`.
 
-** Daily New Customer Count
+- **Daily New Customer Count**
+  - Tracked how many new customers were acquired each day since the restaurant’s launch.
 
-** Tracked how many new customers were acquired on each day since the launch date, giving insight into customer acquisition 
-trends over time.
+- **Single-Order Customers in Jan 2025**
+  - Counted customers who signed up and placed only one order in January 2025 and did not order afterward.
 
-** Single-Order Customers in Jan 2025
+- **Customers Acquired 1 Month Ago but Inactive in the Last 7 Days**
+  - Listed customers acquired exactly a month ago, who didn’t place an order in the last 7 days, and whose first order used a promo code.
 
-** Counted customers who were acquired and placed only one order in January 2025 and did not place any orders afterward — helping to identify churn early.
+- **Trigger After Every 3rd Order**
+  - Created a query to help the growth team identify customers after their 3rd, 6th, 9th... order for personalized targeting.
 
-** Customers Acquired a Month Ago but Inactive in Last 7 Days
+- **Customers Who Only Ordered on Promo**
+  - Found customers who placed more than one order and used a promo code on every single order.
 
-** Listed customers who were acquired exactly one month ago and did not place an order in the last 7 days, with their first order being promo-based.
+- **Organic Customer Percent in Jan 2025**
+  - Calculated the percentage of customers in January 2025 who placed their first order without using any promo code.
 
-##### Trigger Query for Every 3rd Order
-
-##### Created a query to help the growth team identify customers after every 3rd order for personalized communication — crucial for targeted marketing automation.
-
-##### Customers with All Promo Orders
-
-** Identified customers who placed more than one order, and all of their orders were made using promotional codes.
-
-** Percent of Organic Customers in Jan 2025
-
-** Calculated the percentage of customers acquired in January 2025 who placed their first order without using any promo code, highlighting organic growth.
+---
 
 ## 🛠️ Tools & Technologies Used
-### SQL:  MySQL 
 
-##### DB Functions: ROW_NUMBER(), COUNT(), DATE_DIFF, CASE, GROUP BY, JOIN, CTE, WINDOW FUNCTIONS
+- **SQL** (PostgreSQL / MySQL)
+- **SQL Functions**: `ROW_NUMBER()`, `COUNT()`, `GROUP BY`, `DATE_DIFF`, `CASE`, `JOIN`, `CTE`, `WINDOW FUNCTIONS`
+- **Techniques**: Customer segmentation, acquisition analysis, churn detection, cohort behavior
 
-##### Data Analysis Techniques: Cohort analysis, segmentation, filtering with date conditions
+---
 
-## 📈 Outcome
-This case study helped simulate real-world analytical thinking and SQL problem-solving skills often required in data analyst roles. By solving complex queries and applying business logic, the analysis supports marketing teams with:
+## 📁 Folder Structure
 
-** Customer segmentation
-
-** Campaign planning
-
-** Retention tracking
-
-** Promo code effectiveness
 
 ## 📬 Contact
 For any queries or collaborations, feel free to reach out:
