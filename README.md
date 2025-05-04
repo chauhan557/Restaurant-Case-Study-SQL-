@@ -42,7 +42,7 @@ This SQL case study explores customer acquisition, ordering behavior, and promo 
 
 ---
 
-## 📁 Folder Structure
+
 
 
 ## 📬 Contact
