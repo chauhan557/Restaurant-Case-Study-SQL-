@@ -26,11 +26,11 @@ trends over time.
 
 ** Listed customers who were acquired exactly one month ago and did not place an order in the last 7 days, with their first order being promo-based.
 
-** Trigger Query for Every 3rd Order
+##### Trigger Query for Every 3rd Order
 
-** Created a query to help the growth team identify customers after every 3rd order for personalized communication — crucial for targeted marketing automation.
+##### Created a query to help the growth team identify customers after every 3rd order for personalized communication — crucial for targeted marketing automation.
 
-** Customers with All Promo Orders
+##### Customers with All Promo Orders
 
 ** Identified customers who placed more than one order, and all of their orders were made using promotional codes.
 
@@ -41,9 +41,9 @@ trends over time.
 ## 🛠️ Tools & Technologies Used
 ### SQL:  MySQL 
 
-### DB Functions: ROW_NUMBER(), COUNT(), DATE_DIFF, CASE, GROUP BY, JOIN, CTE, WINDOW FUNCTIONS
+##### DB Functions: ROW_NUMBER(), COUNT(), DATE_DIFF, CASE, GROUP BY, JOIN, CTE, WINDOW FUNCTIONS
 
-### Data Analysis Techniques: Cohort analysis, segmentation, filtering with date conditions
+##### Data Analysis Techniques: Cohort analysis, segmentation, filtering with date conditions
 
 ## 📈 Outcome
 This case study helped simulate real-world analytical thinking and SQL problem-solving skills often required in data analyst roles. By solving complex queries and applying business logic, the analysis supports marketing teams with:
